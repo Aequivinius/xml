@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ? missing in declaration -->
+<company>
+  <person role="master distiller">
+	<salary>10000</salary>
+	<weight unit="kg">90</weight>
+  </person>
+  <!-- attributes must have unique names but tags do not -->
+  <person>
+	<roles>
+	  <role>CTO</role>
+	  <role>Business &amp; Analyst</role>
+	  <!-- & must be escaped both in tags and attributes -->
+	  <role>CTO</role>
+	</roles>
+	<salary>9500</salary>
+	<weight unit="kg">100</weight>
+	<!-- watch out for typos! -->
+	<!-- and that every attribute value is enclosed in quotes -->
+  </person>
+  <!-- and make sure every tag is closed -->
+</company>
+<!-- tags are closed with </tag>, not <tag/> -->

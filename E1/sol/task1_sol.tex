@@ -1,0 +1,83 @@
+\documentclass[a4paper, 12pt]{scrartcl}
+\usepackage{listings}
+\usepackage{color}
+\lstdefinelanguage{XML}
+{
+  basicstyle=\ttfamily\footnotesize,
+  morestring=[b]",
+  moredelim=[s][\bfseries\color{blue}]{<}{\ },
+  moredelim=[s][\bfseries\color{blue}]{</}{>},
+  moredelim=[l][\bfseries\color{blue}]{/>},
+  moredelim=[l][\bfseries\color{blue}]{>},
+  morecomment=[s]{<?}{?>},
+  morecomment=[s]{<!--}{-->},
+  commentstyle=\color{black},
+  stringstyle=\color{blue},
+  identifierstyle=\color{red}
+}
+
+\setkomafont{sectioning}{\rmfamily}
+
+
+\title{XML Technologies: Exercise Solutions 1}
+\date{}
+\subtitle{Introduction to XML, DTDs}
+ 
+\begin{document}
+\maketitle\vspace{-5ex}
+
+\noindent Questions and instructions are displayed in a font with normal weight, answers are set in \textbf{bold}. \\
+
+\noindent Bear in mind that even though the sample solution might not consider your approach to solve a particular problem, this does by no means invalidate your solution. 
+
+\section{Introducing XML}
+
+% QUESTION 1: well-formedness of file (1 point)
+\subsection{Well-Formedness (2 Points)}
+
+Find all mistakes in the attempted XML document and correct them. \\
+
+\lstinputlisting[language=XML]{attachments/wellformed.xml}
+
+\section{Validation and DTD}
+
+% QUESTION 2: questions about validation / well-formedness 
+\subsection{Validation and Valid Documents (1 Points)}
+
+\begin{itemize}
+\item What is validation and what purpose does it serve? \\
+
+\textbf{Validation is the process of checking a well-formed XML document against a set of rules that are usually defined either in a DTD, XML Schema or RelaxNG. The rules all relate to the structure, ordering or content of XML.}
+
+\item Under what conditions can an XML document be said to be valid? \\
+
+\textbf{An XML document is valid if it satisfies the rules defined in a DTD (or similar type of schema or definition language, for that matter).}
+
+\item Can XML documents be well-formed, but not valid? \\
+
+\textbf{Yes, an absolute majority of all possible XML documents will be invalid with respect to a particular DTD at all times.}
+
+\item Can XML documents be valid, but not well-formed? \\
+
+\textbf{No, an undefined something that is not well-formed XML cannot be validated.}
+\end{itemize}
+
+\noindent 
+
+% QUESTION 3: write a simple DTD (1 point)
+\subsection{Document Type Definitions (DTDs) (2 Points)}
+
+
+Write a DTD where the following rules are laid down:
+\begin{itemize}
+   \item A \texttt{single\_malt} element may only contain \texttt{whisky} or \texttt{whiskey} elements.
+   \item Every \texttt{whisky} and \texttt{whiskey} element must have an \texttt{age} attribute.
+   \item Every \texttt{whisky} and \texttt{whiskey} element may have an \texttt{origin} and \texttt{name} attribute.
+\end{itemize}
+
+
+\lstinputlisting[language=XML]{attachments/singlemalt.dtd}
+
+
+
+\end{document}

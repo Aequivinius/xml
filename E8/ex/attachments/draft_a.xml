@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<countries>
+    <country code="AO" continent="AF">
+        <population>12799293</population>
+        <area>1246700</area>
+        <gdp currency="USD">110.3 Billion</gdp>
+    </country>
+    <country code="BE" continent="EU">
+        <population>10414336</population>
+        <area>30528</area>
+        <gdp currency="USD">389.3 Billion</gdp>
+    </country>
+    <country code="ID" continent="AS">
+        <population>240271522</population>
+        <area>1904569</area>
+        <gdp currency="USD">914.6 Billion</gdp>
+    </country>
+    <country code="MX" continent="NA">
+        <population>111211789</population>
+        <area>1964375</area>
+        <gdp currency="USD">1.563 Trillion</gdp>
+    </country>
+    <country code="ZA" continent="AF">
+        <population>49052489</population>
+        <area>1219090</area>
+        <gdp currency="USD">491 Billion</gdp>
+    </country>
+</countries>

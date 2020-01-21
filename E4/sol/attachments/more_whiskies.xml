@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<whiskies>
+	<whisky ID="1">
+		<distillery>Kilchoman</distillery>
+		<bottling>Machir Bay</bottling>
+		<age>6</age>
+		<abv>46%</abv>
+		<!-- abv means 'alcohol by volume' -->
+	</whisky>
+	<whisky ID="2">
+		<distillery>Ardbeg</distillery>
+		<abv>57.1%</abv>
+		<age>NAS</age>
+		<!-- NAS means 'no age statement' -->
+		<bottling>Corryvreckan</bottling>
+	</whisky>
+	<whisky ID="3">
+		<distillery>Bruichladdich</distillery>
+		<bottling>The Laddie Ten</bottling>
+		<abv>50.0%</abv>
+		<age>10</age>
+	</whisky>
+	<whisky ID="4">
+		<distillery>Bowmore</distillery>
+		<bottling>Laimrig</bottling>
+		<abv>54.4%</abv>
+		<age>15</age>
+	</whisky>
+</whiskies>

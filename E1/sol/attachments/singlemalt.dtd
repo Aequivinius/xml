@@ -1,0 +1,11 @@
+<!ELEMENT single_malt (whisky|whiskey)+>
+<!ELEMENT whisky EMPTY>
+<!ELEMENT whiskey EMPTY>
+
+<!ATTLIST whisky age CDATA #REQUIRED>
+<!ATTLIST whisky origin CDATA #IMPLIED>
+<!ATTLIST whisky name CDATA #IMPLIED>
+
+<!ATTLIST whiskey age CDATA #REQUIRED>
+<!ATTLIST whiskey origin CDATA #IMPLIED>
+<!ATTLIST whiskey name CDATA #IMPLIED>

@@ -1,0 +1,1638 @@
+<?xml version="1.0" standalone="yes"?>
+
+<distilleries>
+  <distillery name="Aberfeldy">
+    <address>
+      <postcode>PH15 2EB</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>2</sweetness>
+      <smoky>2</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>1</spicy>
+      <winey>2</winey>
+      <nutty>2</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Aberlour">
+    <address>
+      <postcode>AB38 9PJ</postcode>
+    </address>
+    <taste>
+      <body>3</body>
+      <sweetness>3</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>4</honey>
+      <spicy>3</spicy>
+      <winey>2</winey>
+      <nutty>2</nutty>
+      <malty>3</malty>
+      <fruity>3</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="AnCnoc">
+    <address>
+      <postcode>AB5 5LI</postcode>
+    </address>
+    <taste>
+      <body>1</body>
+      <sweetness>3</sweetness>
+      <smoky>2</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>0</spicy>
+      <winey>0</winey>
+      <nutty>2</nutty>
+      <malty>2</malty>
+      <fruity>3</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Ardbeg">
+    <address>
+      <postcode>PA42 7EB</postcode>
+    </address>
+    <taste>
+      <body>4</body>
+      <sweetness>1</sweetness>
+      <smoky>4</smoky>
+      <medicinal>4</medicinal>
+      <tobacco>0</tobacco>
+      <honey>0</honey>
+      <spicy>2</spicy>
+      <winey>0</winey>
+      <nutty>1</nutty>
+      <malty>2</malty>
+      <fruity>1</fruity>
+      <floral>0</floral>
+    </taste>
+  </distillery>
+  <distillery name="Ardmore">
+    <address>
+      <postcode>AB54 4NH</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>2</sweetness>
+      <smoky>2</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>1</spicy>
+      <winey>1</winey>
+      <nutty>2</nutty>
+      <malty>3</malty>
+      <fruity>1</fruity>
+      <floral>1</floral>
+    </taste>
+  </distillery>
+  <distillery name="ArranIsleOf">
+    <address>
+      <postcode>KA27 8HJ</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>3</sweetness>
+      <smoky>1</smoky>
+      <medicinal>1</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>1</spicy>
+      <winey>1</winey>
+      <nutty>0</nutty>
+      <malty>1</malty>
+      <fruity>1</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Auchentoshan">
+    <address>
+      <postcode>G81 4SJ</postcode>
+    </address>
+    <taste>
+      <body>0</body>
+      <sweetness>2</sweetness>
+      <smoky>0</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>1</spicy>
+      <winey>0</winey>
+      <nutty>2</nutty>
+      <malty>2</malty>
+      <fruity>3</fruity>
+      <floral>3</floral>
+    </taste>
+  </distillery>
+  <distillery name="Auchroisk">
+    <address>
+      <postcode>AB55 3XS</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>3</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>1</spicy>
+      <winey>2</winey>
+      <nutty>2</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>1</floral>
+    </taste>
+  </distillery>
+  <distillery name="Aultmore">
+    <address>
+      <postcode>AB55 3QY</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>2</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>0</spicy>
+      <winey>0</winey>
+      <nutty>2</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Balblair">
+    <address>
+      <postcode>IV19 1LB</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>3</sweetness>
+      <smoky>2</smoky>
+      <medicinal>1</medicinal>
+      <tobacco>0</tobacco>
+      <honey>0</honey>
+      <spicy>2</spicy>
+      <winey>0</winey>
+      <nutty>2</nutty>
+      <malty>1</malty>
+      <fruity>2</fruity>
+      <floral>1</floral>
+    </taste>
+  </distillery>
+  <distillery name="Balmenach">
+    <address>
+      <postcode>PH26 3PF</postcode>
+    </address>
+    <taste>
+      <body>4</body>
+      <sweetness>3</sweetness>
+      <smoky>2</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>1</spicy>
+      <winey>3</winey>
+      <nutty>3</nutty>
+      <malty>0</malty>
+      <fruity>1</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Belvenie">
+    <address>
+      <postcode>AB55 4DH</postcode>
+    </address>
+    <taste>
+      <body>3</body>
+      <sweetness>2</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>3</honey>
+      <spicy>2</spicy>
+      <winey>1</winey>
+      <nutty>0</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="BenNevis">
+    <address>
+      <postcode>PH33 6TJ</postcode>
+    </address>
+    <taste>
+      <body>4</body>
+      <sweetness>2</sweetness>
+      <smoky>2</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>2</spicy>
+      <winey>0</winey>
+      <nutty>2</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Benriach">
+    <address>
+      <postcode>IV30 8SJ</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>2</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>2</spicy>
+      <winey>0</winey>
+      <nutty>0</nutty>
+      <malty>2</malty>
+      <fruity>3</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Benrinnes">
+    <address>
+      <postcode>AB38 9NN</postcode>
+    </address>
+    <taste>
+      <body>3</body>
+      <sweetness>2</sweetness>
+      <smoky>2</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>3</honey>
+      <spicy>1</spicy>
+      <winey>1</winey>
+      <nutty>2</nutty>
+      <malty>3</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Benromach">
+    <address>
+      <postcode>IV36 3EB</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>2</sweetness>
+      <smoky>2</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>2</spicy>
+      <winey>1</winey>
+      <nutty>2</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Bladnoch">
+    <address>
+      <postcode>DG8 9AB</postcode>
+    </address>
+    <taste>
+      <body>1</body>
+      <sweetness>2</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>0</honey>
+      <spicy>1</spicy>
+      <winey>1</winey>
+      <nutty>0</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>3</floral>
+    </taste>
+  </distillery>
+  <distillery name="BlairAthol">
+    <address>
+      <postcode>PH16 5LY</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>2</sweetness>
+      <smoky>2</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>2</spicy>
+      <winey>2</winey>
+      <nutty>2</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Bowmore">
+    <address>
+      <postcode>PA43 7GS</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>2</sweetness>
+      <smoky>3</smoky>
+      <medicinal>1</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>2</spicy>
+      <winey>1</winey>
+      <nutty>1</nutty>
+      <malty>1</malty>
+      <fruity>1</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Bruichladdich">
+    <address>
+      <postcode>PA49 7UN</postcode>
+    </address>
+    <taste>
+      <body>1</body>
+      <sweetness>1</sweetness>
+      <smoky>2</smoky>
+      <medicinal>2</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>2</spicy>
+      <winey>1</winey>
+      <nutty>2</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Bunnahabhain">
+    <address>
+      <postcode>PA46 7RR</postcode>
+    </address>
+    <taste>
+      <body>1</body>
+      <sweetness>2</sweetness>
+      <smoky>1</smoky>
+      <medicinal>1</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>1</spicy>
+      <winey>1</winey>
+      <nutty>1</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>3</floral>
+    </taste>
+  </distillery>
+  <distillery name="Caol Ila">
+    <address>
+      <postcode>PA46 7RL</postcode>
+    </address>
+    <taste>
+      <body>3</body>
+      <sweetness>1</sweetness>
+      <smoky>4</smoky>
+      <medicinal>2</medicinal>
+      <tobacco>1</tobacco>
+      <honey>0</honey>
+      <spicy>2</spicy>
+      <winey>0</winey>
+      <nutty>2</nutty>
+      <malty>1</malty>
+      <fruity>1</fruity>
+      <floral>1</floral>
+    </taste>
+  </distillery>
+  <distillery name="Cardhu">
+    <address>
+      <postcode>AB38 7RY</postcode>
+    </address>
+    <taste>
+      <body>1</body>
+      <sweetness>3</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>1</spicy>
+      <winey>0</winey>
+      <nutty>2</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Clynelish">
+    <address>
+      <postcode>KW9 6LB</postcode>
+    </address>
+    <taste>
+      <body>3</body>
+      <sweetness>2</sweetness>
+      <smoky>3</smoky>
+      <medicinal>3</medicinal>
+      <tobacco>1</tobacco>
+      <honey>0</honey>
+      <spicy>2</spicy>
+      <winey>0</winey>
+      <nutty>1</nutty>
+      <malty>1</malty>
+      <fruity>2</fruity>
+      <floral>0</floral>
+    </taste>
+  </distillery>
+  <distillery name="Craigallechie">
+    <address>
+      <postcode>AB38 9ST</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>2</sweetness>
+      <smoky>2</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>1</tobacco>
+      <honey>2</honey>
+      <spicy>2</spicy>
+      <winey>1</winey>
+      <nutty>2</nutty>
+      <malty>2</malty>
+      <fruity>1</fruity>
+      <floral>4</floral>
+    </taste>
+  </distillery>
+  <distillery name="Craigganmore">
+    <address>
+      <postcode>AB37 9AB</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>3</sweetness>
+      <smoky>2</smoky>
+      <medicinal>1</medicinal>
+      <tobacco>0</tobacco>
+      <honey>0</honey>
+      <spicy>1</spicy>
+      <winey>0</winey>
+      <nutty>2</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Dailuaine">
+    <address>
+      <postcode>AB38 7RE</postcode>
+    </address>
+    <taste>
+      <body>4</body>
+      <sweetness>2</sweetness>
+      <smoky>2</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>2</spicy>
+      <winey>2</winey>
+      <nutty>2</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>1</floral>
+    </taste>
+  </distillery>
+  <distillery name="Dalmore">
+    <address>
+      <postcode>IV17 0UT</postcode>
+    </address>
+    <taste>
+      <body>3</body>
+      <sweetness>2</sweetness>
+      <smoky>2</smoky>
+      <medicinal>1</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>2</spicy>
+      <winey>2</winey>
+      <nutty>1</nutty>
+      <malty>2</malty>
+      <fruity>3</fruity>
+      <floral>1</floral>
+    </taste>
+  </distillery>
+  <distillery name="Dalwhinnie">
+    <address>
+      <postcode>PH19 1AB</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>2</sweetness>
+      <smoky>2</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>1</spicy>
+      <winey>0</winey>
+      <nutty>1</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Deanston">
+    <address>
+      <postcode>FK16 6AG</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>2</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>1</spicy>
+      <winey>1</winey>
+      <nutty>1</nutty>
+      <malty>3</malty>
+      <fruity>2</fruity>
+      <floral>1</floral>
+    </taste>
+  </distillery>
+  <distillery name="Dufftown">
+    <address>
+      <postcode>AB55 4BR</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>3</sweetness>
+      <smoky>1</smoky>
+      <medicinal>1</medicinal>
+      <tobacco>0</tobacco>
+      <honey>0</honey>
+      <spicy>0</spicy>
+      <winey>0</winey>
+      <nutty>1</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Edradour">
+    <address>
+      <postcode>PH16 5JP</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>3</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>1</spicy>
+      <winey>1</winey>
+      <nutty>4</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="GlenDeveronMacduff">
+    <address>
+      <postcode>AB4 3JT</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>3</sweetness>
+      <smoky>1</smoky>
+      <medicinal>1</medicinal>
+      <tobacco>1</tobacco>
+      <honey>1</honey>
+      <spicy>1</spicy>
+      <winey>2</winey>
+      <nutty>0</nutty>
+      <malty>2</malty>
+      <fruity>0</fruity>
+      <floral>1</floral>
+    </taste>
+  </distillery>
+  <distillery name="GlenElgin">
+    <address>
+      <postcode>IV30 3SL</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>3</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>1</spicy>
+      <winey>1</winey>
+      <nutty>1</nutty>
+      <malty>1</malty>
+      <fruity>2</fruity>
+      <floral>3</floral>
+    </taste>
+  </distillery>
+  <distillery name="GlenGarioch">
+    <address>
+      <postcode>AB51 0ES</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>1</sweetness>
+      <smoky>3</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>0</honey>
+      <spicy>3</spicy>
+      <winey>1</winey>
+      <nutty>0</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="GlenGrant">
+    <address>
+      <postcode>AB38 7BS</postcode>
+    </address>
+    <taste>
+      <body>1</body>
+      <sweetness>2</sweetness>
+      <smoky>0</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>0</spicy>
+      <winey>1</winey>
+      <nutty>2</nutty>
+      <malty>1</malty>
+      <fruity>2</fruity>
+      <floral>1</floral>
+    </taste>
+  </distillery>
+  <distillery name="GlenKeith">
+    <address>
+      <postcode>AB55 3BU</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>3</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>2</spicy>
+      <winey>1</winey>
+      <nutty>2</nutty>
+      <malty>1</malty>
+      <fruity>2</fruity>
+      <floral>1</floral>
+    </taste>
+  </distillery>
+  <distillery name="GlenMoray">
+    <address>
+      <postcode>IV30 1YE</postcode>
+    </address>
+    <taste>
+      <body>1</body>
+      <sweetness>2</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>2</spicy>
+      <winey>1</winey>
+      <nutty>2</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>4</floral>
+    </taste>
+  </distillery>
+  <distillery name="GlenOrd">
+    <address>
+      <postcode>IV6 7UJ</postcode>
+    </address>
+    <taste>
+      <body>3</body>
+      <sweetness>2</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>2</spicy>
+      <winey>1</winey>
+      <nutty>1</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="GlenScotia">
+    <address>
+      <postcode>PA28 6DS</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>2</sweetness>
+      <smoky>2</smoky>
+      <medicinal>2</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>0</spicy>
+      <winey>1</winey>
+      <nutty>2</nutty>
+      <malty>2</malty>
+      <fruity>1</fruity>
+      <floral>1</floral>
+    </taste>
+  </distillery>
+  <distillery name="GlenSpey">
+    <address>
+      <postcode>AB38 7AU</postcode>
+    </address>
+    <taste>
+      <body>1</body>
+      <sweetness>3</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>0</honey>
+      <spicy>1</spicy>
+      <winey>1</winey>
+      <nutty>1</nutty>
+      <malty>2</malty>
+      <fruity>0</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Glenallachie">
+    <address>
+      <postcode>AB38 9LR</postcode>
+    </address>
+    <taste>
+      <body>1</body>
+      <sweetness>3</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>1</spicy>
+      <winey>0</winey>
+      <nutty>1</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Glendronach">
+    <address>
+      <postcode>AB54 6DA</postcode>
+    </address>
+    <taste>
+      <body>4</body>
+      <sweetness>2</sweetness>
+      <smoky>2</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>1</spicy>
+      <winey>4</winey>
+      <nutty>2</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>0</floral>
+    </taste>
+  </distillery>
+  <distillery name="Glendullan">
+    <address>
+      <postcode>AB55 4DJ</postcode>
+    </address>
+    <taste>
+      <body>3</body>
+      <sweetness>2</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>1</spicy>
+      <winey>2</winey>
+      <nutty>1</nutty>
+      <malty>2</malty>
+      <fruity>3</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Glenfarclas">
+    <address>
+      <postcode>AB37 9BD</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>4</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>2</spicy>
+      <winey>3</winey>
+      <nutty>2</nutty>
+      <malty>3</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Glenfiddich">
+    <address>
+      <postcode>AB55 4DH</postcode>
+    </address>
+    <taste>
+      <body>1</body>
+      <sweetness>3</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>0</honey>
+      <spicy>0</spicy>
+      <winey>0</winey>
+      <nutty>0</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Glengoyne">
+    <address>
+      <postcode>G63 9LB</postcode>
+    </address>
+    <taste>
+      <body>1</body>
+      <sweetness>2</sweetness>
+      <smoky>0</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>1</spicy>
+      <winey>1</winey>
+      <nutty>2</nutty>
+      <malty>2</malty>
+      <fruity>3</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Glenkinchie">
+    <address>
+      <postcode>EH34 5ET</postcode>
+    </address>
+    <taste>
+      <body>1</body>
+      <sweetness>2</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>2</spicy>
+      <winey>0</winey>
+      <nutty>0</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Glenlivet">
+    <address>
+      <postcode>AB37 9DB</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>3</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>2</spicy>
+      <winey>2</winey>
+      <nutty>1</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>3</floral>
+    </taste>
+  </distillery>
+  <distillery name="Glenlossie">
+    <address>
+      <postcode>IV30 3SS</postcode>
+    </address>
+    <taste>
+      <body>1</body>
+      <sweetness>2</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>2</spicy>
+      <winey>0</winey>
+      <nutty>1</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Glenmorangie">
+    <address>
+      <postcode>IV19 1PZ</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>2</sweetness>
+      <smoky>1</smoky>
+      <medicinal>1</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>2</spicy>
+      <winey>0</winey>
+      <nutty>2</nutty>
+      <malty>1</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Glenrothes">
+    <address>
+      <postcode>AB38 7AA</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>3</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>1</spicy>
+      <winey>2</winey>
+      <nutty>1</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>0</floral>
+    </taste>
+  </distillery>
+  <distillery name="Glenturret">
+    <address>
+      <postcode>PH7 4HA</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>3</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>2</spicy>
+      <winey>2</winey>
+      <nutty>2</nutty>
+      <malty>2</malty>
+      <fruity>1</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Highland Park">
+    <address>
+      <postcode>KW15 1SU</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>2</sweetness>
+      <smoky>3</smoky>
+      <medicinal>1</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>1</spicy>
+      <winey>1</winey>
+      <nutty>1</nutty>
+      <malty>2</malty>
+      <fruity>1</fruity>
+      <floral>1</floral>
+    </taste>
+  </distillery>
+  <distillery name="Inchgower">
+    <address>
+      <postcode>AB56 5AB</postcode>
+    </address>
+    <taste>
+      <body>1</body>
+      <sweetness>3</sweetness>
+      <smoky>1</smoky>
+      <medicinal>1</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>2</spicy>
+      <winey>0</winey>
+      <nutty>1</nutty>
+      <malty>2</malty>
+      <fruity>1</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Isle of Jura">
+    <address>
+      <postcode>PA60 7XT</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>1</sweetness>
+      <smoky>2</smoky>
+      <medicinal>2</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>1</spicy>
+      <winey>0</winey>
+      <nutty>2</nutty>
+      <malty>1</malty>
+      <fruity>1</fruity>
+      <floral>1</floral>
+    </taste>
+  </distillery>
+  <distillery name="Knochando">
+    <address>
+      <postcode>AB38 7RT</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>3</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>2</spicy>
+      <winey>1</winey>
+      <nutty>2</nutty>
+      <malty>1</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Lagavulin">
+    <address>
+      <postcode>PA42 7DZ</postcode>
+    </address>
+    <taste>
+      <body>4</body>
+      <sweetness>1</sweetness>
+      <smoky>4</smoky>
+      <medicinal>4</medicinal>
+      <tobacco>1</tobacco>
+      <honey>0</honey>
+      <spicy>1</spicy>
+      <winey>2</winey>
+      <nutty>1</nutty>
+      <malty>1</malty>
+      <fruity>1</fruity>
+      <floral>0</floral>
+    </taste>
+  </distillery>
+  <distillery name="Laphroaig">
+    <address>
+      <postcode>PA42 7DU</postcode>
+    </address>
+    <taste>
+      <body>4</body>
+      <sweetness>2</sweetness>
+      <smoky>4</smoky>
+      <medicinal>4</medicinal>
+      <tobacco>1</tobacco>
+      <honey>0</honey>
+      <spicy>0</spicy>
+      <winey>1</winey>
+      <nutty>1</nutty>
+      <malty>1</malty>
+      <fruity>0</fruity>
+      <floral>0</floral>
+    </taste>
+  </distillery>
+  <distillery name="Linkwood">
+    <address>
+      <postcode>IV30 3RD</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>3</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>1</spicy>
+      <winey>2</winey>
+      <nutty>0</nutty>
+      <malty>1</malty>
+      <fruity>3</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Loch Lomond">
+    <address>
+      <postcode>G83 0TL</postcode>
+    </address>
+    <taste>
+      <body>1</body>
+      <sweetness>1</sweetness>
+      <smoky>1</smoky>
+      <medicinal>1</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>1</spicy>
+      <winey>0</winey>
+      <nutty>1</nutty>
+      <malty>2</malty>
+      <fruity>1</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Longmorn">
+    <address>
+      <postcode>IV30 3SJ</postcode>
+    </address>
+    <taste>
+      <body>3</body>
+      <sweetness>2</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>1</spicy>
+      <winey>1</winey>
+      <nutty>3</nutty>
+      <malty>3</malty>
+      <fruity>2</fruity>
+      <floral>3</floral>
+    </taste>
+  </distillery>
+  <distillery name="Macallan">
+    <address>
+      <postcode>AB38 9RX</postcode>
+    </address>
+    <taste>
+      <body>4</body>
+      <sweetness>3</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>1</spicy>
+      <winey>4</winey>
+      <nutty>2</nutty>
+      <malty>2</malty>
+      <fruity>3</fruity>
+      <floral>1</floral>
+    </taste>
+  </distillery>
+  <distillery name="Mannochmore">
+    <address>
+      <postcode>IV30 3SS</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>1</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>1</spicy>
+      <winey>1</winey>
+      <nutty>2</nutty>
+      <malty>1</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Miltonduff">
+    <address>
+      <postcode>IV30 3TQ</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>4</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>0</spicy>
+      <winey>0</winey>
+      <nutty>2</nutty>
+      <malty>1</malty>
+      <fruity>1</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Mortlach">
+    <address>
+      <postcode>AB55 4AQ</postcode>
+    </address>
+    <taste>
+      <body>3</body>
+      <sweetness>2</sweetness>
+      <smoky>2</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>3</spicy>
+      <winey>3</winey>
+      <nutty>2</nutty>
+      <malty>1</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Oban">
+    <address>
+      <postcode>PA34 5NH</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>2</sweetness>
+      <smoky>2</smoky>
+      <medicinal>2</medicinal>
+      <tobacco>0</tobacco>
+      <honey>0</honey>
+      <spicy>2</spicy>
+      <winey>0</winey>
+      <nutty>2</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>0</floral>
+    </taste>
+  </distillery>
+  <distillery name="OldFettercairn">
+    <address>
+      <postcode>AB30 1YE</postcode>
+    </address>
+    <taste>
+      <body>1</body>
+      <sweetness>2</sweetness>
+      <smoky>2</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>1</tobacco>
+      <honey>2</honey>
+      <spicy>2</spicy>
+      <winey>1</winey>
+      <nutty>2</nutty>
+      <malty>3</malty>
+      <fruity>1</fruity>
+      <floral>1</floral>
+    </taste>
+  </distillery>
+  <distillery name="OldPulteney">
+    <address>
+      <postcode>KW1 5BA</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>1</sweetness>
+      <smoky>2</smoky>
+      <medicinal>2</medicinal>
+      <tobacco>1</tobacco>
+      <honey>0</honey>
+      <spicy>1</spicy>
+      <winey>1</winey>
+      <nutty>2</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="RoyalBrackla">
+    <address>
+      <postcode>IV12 5QY</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>3</sweetness>
+      <smoky>2</smoky>
+      <medicinal>1</medicinal>
+      <tobacco>1</tobacco>
+      <honey>1</honey>
+      <spicy>2</spicy>
+      <winey>1</winey>
+      <nutty>0</nutty>
+      <malty>2</malty>
+      <fruity>3</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="RoyalLochnagar">
+    <address>
+      <postcode>AB35 5TB</postcode>
+    </address>
+    <taste>
+      <body>3</body>
+      <sweetness>2</sweetness>
+      <smoky>2</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>2</spicy>
+      <winey>2</winey>
+      <nutty>2</nutty>
+      <malty>2</malty>
+      <fruity>3</fruity>
+      <floral>1</floral>
+    </taste>
+  </distillery>
+  <distillery name="Scapa">
+    <address>
+      <postcode>KW15 1SE</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>2</sweetness>
+      <smoky>1</smoky>
+      <medicinal>1</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>1</spicy>
+      <winey>1</winey>
+      <nutty>2</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Speyburn">
+    <address>
+      <postcode>AB38 7AG</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>4</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>1</spicy>
+      <winey>0</winey>
+      <nutty>0</nutty>
+      <malty>2</malty>
+      <fruity>1</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Speyside">
+    <address>
+      <postcode>PH21 1NS</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>2</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>0</spicy>
+      <winey>1</winey>
+      <nutty>2</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Springbank">
+    <address>
+      <postcode>PA28 6EJ</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>2</sweetness>
+      <smoky>2</smoky>
+      <medicinal>2</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>2</spicy>
+      <winey>1</winey>
+      <nutty>2</nutty>
+      <malty>1</malty>
+      <fruity>0</fruity>
+      <floral>1</floral>
+    </taste>
+  </distillery>
+  <distillery name="Strathisla">
+    <address>
+      <postcode>AB55 3BS</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>2</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>2</spicy>
+      <winey>2</winey>
+      <nutty>3</nutty>
+      <malty>3</malty>
+      <fruity>3</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Strathmill">
+    <address>
+      <postcode>AB55 5DQ</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>3</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>0</honey>
+      <spicy>2</spicy>
+      <winey>0</winey>
+      <nutty>2</nutty>
+      <malty>1</malty>
+      <fruity>3</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Talisker">
+    <address>
+      <postcode>IV47 8SR</postcode>
+    </address>
+    <taste>
+      <body>4</body>
+      <sweetness>2</sweetness>
+      <smoky>3</smoky>
+      <medicinal>3</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>3</spicy>
+      <winey>0</winey>
+      <nutty>1</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>0</floral>
+    </taste>
+  </distillery>
+  <distillery name="Tamdhu">
+    <address>
+      <postcode>AB38 7RP</postcode>
+    </address>
+    <taste>
+      <body>1</body>
+      <sweetness>2</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>0</spicy>
+      <winey>1</winey>
+      <nutty>1</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Tamnavulin">
+    <address>
+      <postcode>AB37 9JA</postcode>
+    </address>
+    <taste>
+      <body>1</body>
+      <sweetness>3</sweetness>
+      <smoky>2</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>0</honey>
+      <spicy>2</spicy>
+      <winey>0</winey>
+      <nutty>2</nutty>
+      <malty>1</malty>
+      <fruity>2</fruity>
+      <floral>3</floral>
+    </taste>
+  </distillery>
+  <distillery name="Teaninich">
+    <address>
+      <postcode>IV17 0XB</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>2</sweetness>
+      <smoky>2</smoky>
+      <medicinal>1</medicinal>
+      <tobacco>0</tobacco>
+      <honey>0</honey>
+      <spicy>2</spicy>
+      <winey>0</winey>
+      <nutty>0</nutty>
+      <malty>0</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Tobermory">
+    <address>
+      <postcode>PA75 6NR</postcode>
+    </address>
+    <taste>
+      <body>1</body>
+      <sweetness>1</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>0</spicy>
+      <winey>0</winey>
+      <nutty>1</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Tomatin">
+    <address>
+      <postcode>IV13 7YT</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>3</sweetness>
+      <smoky>2</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>2</spicy>
+      <winey>1</winey>
+      <nutty>1</nutty>
+      <malty>2</malty>
+      <fruity>0</fruity>
+      <floral>1</floral>
+    </taste>
+  </distillery>
+  <distillery name="Tomintoul">
+    <address>
+      <postcode>AB37 9AQ</postcode>
+    </address>
+    <taste>
+      <body>0</body>
+      <sweetness>3</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>2</honey>
+      <spicy>2</spicy>
+      <winey>1</winey>
+      <nutty>1</nutty>
+      <malty>2</malty>
+      <fruity>1</fruity>
+      <floral>2</floral>
+    </taste>
+  </distillery>
+  <distillery name="Tormore">
+    <address>
+      <postcode>PH26 3LR</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>2</sweetness>
+      <smoky>1</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>0</tobacco>
+      <honey>1</honey>
+      <spicy>0</spicy>
+      <winey>1</winey>
+      <nutty>2</nutty>
+      <malty>1</malty>
+      <fruity>0</fruity>
+      <floral>0</floral>
+    </taste>
+  </distillery>
+  <distillery name="Tullibardine">
+    <address>
+      <postcode>PH4 1QG</postcode>
+    </address>
+    <taste>
+      <body>2</body>
+      <sweetness>3</sweetness>
+      <smoky>0</smoky>
+      <medicinal>0</medicinal>
+      <tobacco>1</tobacco>
+      <honey>0</honey>
+      <spicy>2</spicy>
+      <winey>1</winey>
+      <nutty>1</nutty>
+      <malty>2</malty>
+      <fruity>2</fruity>
+      <floral>1</floral>
+    </taste>
+  </distillery>
+</distilleries>

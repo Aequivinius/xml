@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE xwing SYSTEM "xwing.dtd">
+<xwing model="T-65B" manufacturer="Incom Corporation">
+ <propulsion>
+     <!-- must have 4 engines -->
+     <engine model="4L4" manufacturer="Incom Corporation" />
+     <engine model="4L4" manufacturer="Incom Corporation" />
+     <engine model="4L4" manufacturer="Incom Corporation" />
+     <engine model="4j.4" manufacturer="Incom Corporation" />
+ </propulsion>
+ <wings>
+     <!-- may have up to 2 cannons per s-foil -->
+     <s-foil folded="true">
+         <cannon model="KX9" manufacturer="Taim &amp; Bak" />
+         <cannon model="KX9" manufacturer="Taim &amp; Bak" />
+     </s-foil>
+     <s-foil folded="true">
+         <cannon model="KX9" manufacturer="Taim &amp; Bak" />
+         <cannon model="KX9" manufacturer="Taim &amp; Bak" />
+     </s-foil>
+ </wings>
+ <fuselage>
+     <cockpit>The single pilot sits in the cockpit, in the center of the fuselage, protected by a transparisteel canopy.</cockpit>
+     <power-generator model="04-Z" manufacturer="Novaldex"></power-generator>
+     
+     <!-- magazine carries at most 3 torpedos -->
+     <torpedo-launcher magazine="3" manufacturer="Krupx" model="MG7"></torpedo-launcher>
+     <torpedo-launcher magazine="2" manufacturer="Krupx" model="MG7"></torpedo-launcher>
+ </fuselage>
+</xwing>

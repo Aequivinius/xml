@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE distilleries SYSTEM "distilleries.dtd">
+
+<distilleries>
+    <distillery name="scapa">
+        <address>Kirkwall KW15 1SE, UK</address>
+        
+        <stills>
+            <still type="pot"/>
+            <still type="pot"/>
+        </stills>
+        
+        <bottlings>
+            <bottling name="Scapa Skiren" age="" category="Single Malt"/>
+        </bottlings>
+    </distillery>
+    
+    <distillery name="mortlach">
+        <address>2 Fife St, Dufftown, Keith AB55 4EH, UK
+        </address>
+        
+        <stills>
+            <still type="pot"/>
+            <still type="pot"/>
+            <still type="pot"/>
+            <still type="pot"/>
+            <still type="pot"/>
+            <still type="pot" name="Wee Witchie"/>
+        </stills>
+        
+        <bottlings>
+            <bottling name="Mortlach 18" age="18" category="Single Malt"/>
+        </bottlings>
+    </distillery>
+    
+</distilleries>

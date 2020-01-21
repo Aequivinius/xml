@@ -1,0 +1,115 @@
+\documentclass[a4paper, 12pt]{scrartcl}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{hyperref}
+\lstdefinelanguage{XML}
+{
+  basicstyle=\ttfamily\footnotesize,
+  morestring=[b]",
+  moredelim=[s][\bfseries\color{blue}]{<}{\ },
+  moredelim=[s][\bfseries\color{blue}]{</}{>},
+  moredelim=[l][\bfseries\color{blue}]{/>},
+  moredelim=[l][\bfseries\color{blue}]{>},
+  morecomment=[s]{<?}{?>},
+  morecomment=[s]{<!--}{-->},
+  commentstyle=\color{black},
+  stringstyle=\color{blue},
+  identifierstyle=\color{red}
+}
+
+\setkomafont{sectioning}{\rmfamily}
+
+\title{XML Technologies: Exercise 4}
+\date{}
+\subtitle{XSLT}
+ 
+\begin{document}
+\maketitle\vspace{-12ex}
+
+\noindent This is a mandatory exercise and the result will be part of your final mark. The solution must be uploaded to OLAT by \textbf{April 15\textsuperscript{th} at 15:59}. Late submissions will not be accepted.\\\
+
+
+\noindent Submit the following files in a zipped archive:
+\begin{itemize}
+\item tablify.xsl
+\item euler.xsl
+\end{itemize}
+
+\noindent Make sure the archive is named [lastname]\_[firstname]\_4.zip (for example \textit{mueller\_mathias\_4.zip}. Some parts of your submission may be automatically evaluated, so make sure to name your files \textit{precisely} as prescribed, otherwise you might not get any points.
+
+
+
+\section{Whisky in the Browser (2 points)}
+\label{sec:xslt}
+
+XSLT is a declarative programming language. Its purpose is to transform XML documents -- either to another XML document or to any other text-based format. One of the most widespread uses of XSLT is transforming XML into XHTML -- in order to display the result in the web. \\
+
+\noindent The XML document \texttt{whiskies.xml} is fine as as format to store or exchange data. However, XML syntax has nothing to say on the subject of \textit{presentation}, that is, displaying the data in an accessible manner. If all our data about whiskies were to be translated to HTML instead, this is what the result could look like in all major browsers: \\
+
+\begin{table}[h]
+\centering
+\label{my-label}
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+ID & distillery   & bottling &  alcohol by volume      & age \\ \hline
+1  & Kilchoman   & Machir Bay  & 46\% & 6       \\ \hline
+2  & Ardbeg   & Corryvreckan & 57.1\% & NAS         \\ \hline
+3  & Bruichladdich & The Laddie Ten  & 50.0\% & 10  \\ \hline
+\end{tabular}
+\end{table}
+
+\newpage
+
+\noindent \textbf{Write a complete XSLT stylesheet that transforms the original \texttt{whiskies.xml} document to XHTML and displays the data in a table. When opened in your browser, the page should look like the table above.}  \\
+
+\noindent Be sure not to hard-code any table cell values but actually retrieve them from the input XML document. For instance, an additional \texttt{whisky} element should not cause your stylesheet any trouble.\\
+
+\noindent \textbf{Save your stylesheet as \texttt{tablify.xsl}.} If you have \texttt{xsltproc} installed, you can test your submission as follows:
+
+\begin{lstlisting}[language=bash]
+  xsltproc tablify.xsl whiskies.xml > table.html
+\end{lstlisting}
+ 
+
+\section{Recursive XSLT: First Euler Problem (3 points)}
+
+The XSLT stylesheet you wrote for question \ref{sec:xslt} is pretty short and straightforward. Yet, many real-world applications take this to quite another level of sophistication. Applications of more advanced XSLT code are, for instance, 
+
+\begin{itemize}
+\item organizing XSLT code in separate modules that import or include one another, with an explicit hierarchy (modularisation)
+\item multi-step transformations with different template modes, in order to reiterate XML data that was processed already (where a template was applied already)
+\item recursive named templates that search arbitrarily deep structures or perform any other task an arbitrary number of times, depending on an input parameter
+\end{itemize}
+
+\noindent In this question, you will write a recursive template. Consider the following problem: \\
+
+\noindent \textit{\textbf{If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23. Find the sum of all the multiples of 3 or 5 below 1000.}} \footnote{The problem description is also available on the Euler project page: \url{https://projecteuler.net/problem=1}.} \\
+
+\noindent Suppose there already was an XSLT solution -- but somehow, the named template disappeared:\\
+
+\lstinputlisting[language=XML]{attachments/euler.xsl}
+
+\noindent The incomplete stylesheet above is also available as \texttt{euler.xsl}. The input to this stylesheet is irrelevant, but transform \texttt{euler.xml}, which you will also find attached. \\
+
+\noindent \textbf{Complete the stylesheet above by writing a named template that
+\begin{itemize}
+\item integrates well with the scaffold that is already given (i.e. that does not require any change to the code outside of the named template)
+\item takes an input parameter called ``k'' where a number can be specified up to which multiples are found
+\item returns a single number (that is the sum of all numbers between 1 and \texttt{\$k} that are multiples of 3 or 5) as an \texttt{xsl:sequence}. If you read out the value of \texttt{\$sum} like this:
+\end{itemize}
+}
+
+\lstset{language=XML}
+\begin{lstlisting}
+     <xsl:value-of select="$sum"/>
+\end{lstlisting}
+
+\hspace{0.5cm} \textbf{the result should be:} \\
+\lstset{language=XML}
+\begin{lstlisting}
+     233168
+\end{lstlisting}
+
+
+\noindent \\ \textbf{Save the complete stylesheet as \texttt{euler.xsl}.}
+\end{document}

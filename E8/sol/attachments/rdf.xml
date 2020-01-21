@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:g="http://geo/#">
+    
+    <g:Continent rdf:about="http://geo/#Africa">
+        <g:hasCountry>
+            <rdf:Description rdf:about="http://geo/#Eritrea">
+                <g:hasPopulation>5792984</g:hasPopulation>
+                <g:hasArea>121320</g:hasArea>
+            </rdf:Description>
+        </g:hasCountry>
+        <g:hasCountry>
+            <rdf:Description rdf:about="http://geo/#SouthAfrica">
+                <g:hasPopulation>49052489</g:hasPopulation>
+                <g:hasArea>1219090</g:hasArea>
+            </rdf:Description>
+        </g:hasCountry>
+    </g:Continent>
+    <g:Continent rdf:about="http://geo/#Asia">
+        <g:hasCountry>
+            <rdf:Description rdf:about="http://geo/#Laos">
+                <g:hasPopulation>6368162</g:hasPopulation>
+                <g:hasArea>236800</g:hasArea>
+            </rdf:Description>
+        </g:hasCountry>
+        <g:hasCountry>
+            <rdf:Description rdf:about="http://geo/#Japan">
+                <g:hasPopulation>127288000</g:hasPopulation>
+                <g:hasArea>377835</g:hasArea>
+            </rdf:Description>
+        </g:hasCountry>
+    </g:Continent>
+</rdf:RDF>

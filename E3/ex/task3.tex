@@ -1,0 +1,108 @@
+\documentclass[a4paper, 12pt]{scrartcl}
+\usepackage{listings}
+\usepackage{color}
+\lstdefinelanguage{XML}
+{
+  basicstyle=\ttfamily\footnotesize,
+  morestring=[b]",
+  moredelim=[s][\bfseries\color{blue}]{<}{\ },
+  moredelim=[s][\bfseries\color{blue}]{</}{>},
+  moredelim=[l][\bfseries\color{blue}]{/>},
+  moredelim=[l][\bfseries\color{blue}]{>},
+  morecomment=[s]{<?}{?>},
+  morecomment=[s]{<!--}{-->},
+  commentstyle=\color{black},
+  stringstyle=\color{blue},
+  identifierstyle=\color{red}
+}
+
+\setkomafont{sectioning}{\rmfamily}
+
+
+\title{XML Technologies: Exercise 3}
+\date{}
+\subtitle{XML Schema, XPath}
+
+\begin{document}
+\maketitle\vspace{-12ex}
+
+\noindent This is a mandatory exercise and the result will be part of your final mark. The solution must be uploaded to OLAT by \textbf{April 1\textsuperscript{st} at 15:59} (no jokes permitted). Late submissions will not be accepted.\\
+
+
+\noindent Submit the following files in a zipped archive:
+\begin{itemize}
+\item \texttt{xwing.xsd} and \texttt{xwing.xml}
+\item \texttt{xpath.txt}
+\end{itemize}
+
+\noindent Make sure the archive is named [lastname]\_[firstname]\_3.zip (for example \textit{mueller\_mathias\_3.zip}. Some parts of your submission may be automatically evaluated, so make sure to name your files \textit{precisely} as prescribed, otherwise you might not get any points.
+
+
+
+
+\section{A Better Way to Validate (2 Points)}
+
+XML Schemas are used to validate XML documents. As such, they perform exactly the same task as DTDs. In this section, we will first XML Schema and apply it to a new example (so we're leaving temporarily the world of whisky). \\
+
+XML Schema is itself written in XML and is far more powerful and expressive than a DTD. For instance, the XML Schema language provides a means of enforcing constraints like the following:
+
+\lstset{language=XML}
+\begin{lstlisting}
+<!--There should be exactly 4 wings-->
+\end{lstlisting}
+
+\noindent Attached you'll find the documents \texttt{xwing.xml} and \texttt{xwing\_incomplete.xsd}. The first document is an XML file describing a spaceship. The second document is an incomplete XML Schema for \texttt{X-wing} documents. A comment \texttt{<!--...-->} in the \texttt{xwing.xsd} file indicates a gap that must be filled. \\
+
+\noindent \textbf{Fill in the blanks in the \texttt{xwing.xsd} to obtain a complete XML Schema that validates the \texttt{xwing.xml}. Save the complete XML Schema as \texttt{xwing.xsd}. To facilitate evaluation, also include \texttt{xwing.xml} in your submission.} \\
+
+\noindent \textbf{Don't let go your conscious self and rely on instinct. Instead, test your solution with a tool like \texttt{xmllint} using the \texttt{--schema} option.}
+
+%\subsection{XML Schema versus DTD}
+
+% Both DTDs and XML Schemas are validation languages, but there are fundamental differences between them. \\
+
+%\noindent \textbf{What exactly are the differences between XML Schema and DTD? Answer in complete sentences and name at least 3 differences. Save your findings in \texttt{differences.txt}.}
+
+\section{XPath}
+
+As you now know, XML is a meta-markup language that provides a syntax to structure data in a rigorously defined way. But XML on its own does not provide a means of \textit{finding} and \textit{accessing} the data inside an XML document. There is a separate language for this task, \textbf{XPath}. \\
+
+\noindent XPath is a query language that is meant to select specific nodes (e.g. elements or attributes) from XML content and retrieve them.
+
+\subsection{Path Expressions (3 Points)}
+
+In this exercise, we will retrieve information from the XML document \texttt{distilleries.xml}. It contains most active distilleries in Scotland, and for each of them, list the general taste profile in terms of \textit{nuttiness}, \textit{smokiness} and so on.
+
+A simple example is the following XPath expression: \\
+
+\noindent \texttt{/distilleries/distillery} \\
+
+\noindent which will yield all \texttt{distillery} element nodes.\\
+
+\noindent \textbf{Write XPath expressions that find the following:
+\begin{itemize}
+\item The second \texttt{distillery} element in the list. (Returns an element node.)
+\item The postcode of the distillery that is called "Linkwood". (Returns text.)
+\item All \texttt{distillery} elements that produce smoky whisky (\texttt{smoky} is 4).
+\item The number of distilleries that produce whiskies that are quite floral (\texttt{floral} is higher than 3). (Returns a number.)
+\item The average fruitiness of all the distilleries that contain \textit{Glen} in their name. (Returns a number.)
+\item A recommendation for a whisky: We're looking for something that has a slightly medicinal flavour (1) and does not come from a region with a postcode containing \textit{AB}. Of those whiskies, we'd like the the one that is the most floral. What's the overall taste intensity of that whisky? (Returns a number, too.)
+\end{itemize}
+} 
+
+\noindent  \textbf{Save the path expressions to the file \texttt{xpath.txt}, one expression per line.}
+\clearpage
+
+\subsection{Embedding XPath into XSLT}
+
+XPath is typically not used in isolation, but embedded into a \textit{higher-level} language that uses XPath as a query language. This is because XPath is in general limited to finding and retrieving nodes, and therefore unable to manipulate or process the results. \\
+
+\noindent Examples for languages that subsume XPath are Java, Python, PHP -- and XSLT. In future lectures and exercises, we will look in detail at how XPath is integrated in XSLT and at XSLT as a way to transform XML data.
+
+
+\noindent \\ \textbf{Do not submit anything for this exciting spoiler section.}
+
+
+
+
+\end{document}

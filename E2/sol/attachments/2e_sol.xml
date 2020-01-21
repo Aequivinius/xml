@@ -1,0 +1,5 @@
+<!--Correct use of namespaces. Attributes do not take on default namespaces.-->
+<root xmlns="www.nsa-namespace.com" xmlns:nsb="www.nsa-namespace.com">
+  <a level="1" nsb:level="2"/>
+  <b/>
+</root>

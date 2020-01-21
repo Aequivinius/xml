@@ -1,0 +1,4 @@
+<nsa:root xmlns:nsa="www.nsa-namespace.com" xmlns:nsb="www.nsa-namespace.com">
+  <nsb:a/>
+  <nsb:b/>
+</nsb:root>

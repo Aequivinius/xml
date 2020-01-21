@@ -1,0 +1,14 @@
+/distilleries/distillery[2]
+
+//distillery[@name='Linkwood']//postcode/text()
+
+//distillery[taste/smoky='4']/@name
+
+count(//distillery[.//floral>3])
+
+sum(//distillery[(contains(@name,'Glen'))]//fruity) div 
+count(//distillery[(contains(@name,'Glen'))])
+
+//distillery[.//medicinal=1 and not(contains(.//postcode,'AB')) and .//floral=max(//distillery[.//medicinal=1 and not(contains(.//postcode,'AB'))]//floral)]/@name|sum(//distillery[.//medicinal=1 and not(contains(.//postcode,'AB')) and .//floral=max(//distillery[.//medicinal=1 and not(contains(.//postcode,'AB'))]//floral)]//taste/*)
+
+

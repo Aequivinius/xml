@@ -1,0 +1,117 @@
+\documentclass[a4paper, 12pt]{scrartcl}
+\usepackage{listings}
+\usepackage{color}
+\lstdefinelanguage{XML}
+{
+  basicstyle=\ttfamily\footnotesize,
+  morestring=[b]",
+  moredelim=[s][\bfseries\color{blue}]{<}{\ },
+  moredelim=[s][\bfseries\color{blue}]{</}{>},
+  moredelim=[l][\bfseries\color{blue}]{/>},
+  moredelim=[l][\bfseries\color{blue}]{>},
+  morecomment=[s]{<?}{?>},
+  morecomment=[s]{<!--}{-->},
+  commentstyle=\color{black},
+  stringstyle=\color{blue},
+  identifierstyle=\color{red}
+}
+
+\setkomafont{sectioning}{\rmfamily}
+
+\title{XML Technologies: Exercise 1}
+\date{}
+\subtitle{Introduction to XML, DTDs}
+
+\begin{document}
+\maketitle\vspace{-12ex}
+
+\noindent This is a mandatory exercise and the result will be part of your final mark. The solution must be uploaded to OLAT by \textbf{March 4\textsuperscript{th} at 15:59}. Late submissions will not be accepted.\\
+
+
+\noindent Submit the following files in a zipped archive:
+\begin{itemize}
+\item wellformed.xml
+\item validation.txt
+\item singlemalt.dtd
+\item valid.xml
+\item invalid.xml
+\end{itemize}
+
+\noindent Name the archive [lastname]\_[firstname]\_1.zip (for example \textit{mueller\_mathias\_1.zip}). Some parts of your submission may be automatically evaluated, so make sure to name your files \textit{precisely} as prescribed, otherwise you might not get any points.
+
+\section{Introducing XML and xmllint}
+
+\subsection{xmllint (0 Points)}
+\texttt{xmllint} is a program that parses XML files and, among other things, can perform \emph{validation}. It is installed by default on most UNIX-based operating systems, and by extension, on OSX, too. \\
+
+\noindent If you are using one of these operationg systems, open your console and type:
+
+\begin{lstlisting}[language=bash]
+  xmllint --version
+\end{lstlisting}
+
+\noindent For Windows, there are some instructions\footnote{https://www.zlatkovic.com/libxml.en.html\#install} for how to install it. However, we cannot offer any support for these as part of this course.
+
+
+% QUESTION 1: well-formed
+\subsection{Well-Formedness (2 Points)}
+Not all structured data is XML: The property of being ``correct'' XML is called well-formedness. The document \texttt{malformed.xml} is not well-formed. But what precisely is wrong? \\
+
+\lstinputlisting[language=XML]{attachments/malformed.xml}
+
+\noindent \textbf{Find all mistakes in the attempted XML document above and correct them. Save a well-formed version of it as \texttt{wellformed.xml}, explaining your corrections using \texttt{<!-- comments -->}. If all your objections are amended, the resulting document should indeed be well-formed XML.} \\
+
+\noindent You may use \texttt{xmllint} to check your document for well-formedness. In order to do so, open your console, navigate to your directory and type:
+
+\begin{lstlisting}[language=bash]
+  xmllint -noout wellformed.xml
+\end{lstlisting}
+
+\noindent If \texttt{xmllint} doesn't complain, then the file is well-formed.
+
+\section{Validation and DTD}
+
+% QUESTION 2: questions about validation / well-formedness
+\subsection{Validation and Valid Documents (1 Point)}
+
+XML is not a markup language in its strict sense, but a \textbf{meta-markup language}. This is because XML does define a syntax to structure data, but does not define a vocabulary. A vocabulary is a collection of key words in the data that map to specific actions in applications. Likewise, an application might expect data items to be stored in a certain order, while XML allows the children of an element in any order. \\
+
+\noindent \textbf{With all this in mind,
+\begin{itemize}
+\item What is validation and what purpose does it serve?
+\item Under what conditions can an XML document be said to be valid?
+\item Can XML documents be well-formed, but not valid?
+\item Can XML documents be valid, but not well-formed?
+\end{itemize}
+Submit your answers in the text file \texttt{validation.txt}.}
+
+\noindent 
+
+% QUESTION 3: write a simple DTD
+\subsection{Document Type Definitions (DTDs) (2 Points)}
+
+Below is an example of a short, well-formed XML document. Remember, well-formedness has no say in whether the content makes sense.
+
+\lstinputlisting[language=XML]{attachments/invalid.xml}
+
+
+\noindent Single Malt must always be made from malted barley, and Bourbon is made from corn. \textbf{Write a DTD \texttt{singlemalt.dtd} where the following rules are laid down}:
+\begin{itemize}
+   \item A \texttt{single\_malt} element may only contain \texttt{whisky} or \texttt{whiskey} elements.
+   \item Every \texttt{whisky} and \texttt{whiskey} element must have an \texttt{age} attribute.
+   \item Every \texttt{whisky} and \texttt{whiskey} element may have an \texttt{origin} and \texttt{name} attribute.
+\end{itemize}
+
+Thus, while your DTD should \textit{invalidate} the XML above, the following document should be valid in regard to the DTD you have written:
+
+\lstinputlisting[language=XML]{attachments/valid.xml}
+
+\noindent Please may test your DTD by using \texttt{xmllint} as follows (or resort to some other method of validation):
+
+\begin{lstlisting}[language=bash]
+  xmllint --noout --dtdvalid singlemalt.dtd valid.xml
+\end{lstlisting}
+
+\noindent Also, to facilitate evaluation of your submission, also include the files \texttt{valid.xml} and \texttt{invalid.xml} in your submission.
+
+\end{document}

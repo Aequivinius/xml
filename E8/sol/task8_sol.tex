@@ -1,0 +1,100 @@
+\documentclass[a4paper, 12pt]{scrartcl}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\lstdefinelanguage{XML}
+{
+  basicstyle=\ttfamily\footnotesize,
+  morestring=[b]",
+  moredelim=[s][\bfseries\color{blue}]{<}{\ },
+  moredelim=[s][\bfseries\color{blue}]{</}{>},
+  moredelim=[l][\bfseries\color{blue}]{/>},
+  moredelim=[l][\bfseries\color{blue}]{>},
+  morecomment=[s]{<?}{?>},
+  morecomment=[s]{<!--}{-->},
+  commentstyle=\color{black},
+  stringstyle=\color{blue},
+  identifierstyle=\color{red}
+}
+
+\title{XML Technologies: Exercise Solutions 8}
+\date{}
+\subtitle{XML Design, RDF}
+ 
+\begin{document}
+\maketitle\vspace{-5ex}
+
+\noindent Questions and instructions are printed in a font with normal weight, answers are set in \textbf{bold}. \\
+
+\noindent Bear in mind that even though the sample solution might not consider your approach to solve
+a particular problem, this does by no means invalidate your solution.
+
+\section{XML Design}
+
+\subsection{Intelligent Design}
+
+\noindent Study drafts A and B very closely. Decide which of the drafts is better suited for the task, given the requirements stated above. Do not rely on your intuition. Instead, substantiate your claim with XPath expressions that contrast the effort necessary to retrieve the population of one specific country or a country using its GDP value as an identifier, given either draft A or B as the query document. Be as clear as possible, your bosses never underwent proper XML training. \\
+
+\noindent Save your findings as \texttt{design.txt}. Include your choice of draft, an explanation in complete sentences and suitable XPath expressions. \\
+
+\noindent \textbf{Draft A is a much better fit for the purpose described in the task. The rationale is the following:
+\begin{itemize}
+\item Draft A structures data in a hierarchical way -- beyond the minimal, mandatory hierarchy of having an outermost element that encompasses all other elements. Hierarchy clearly shows the relationships between elements.
+\item Draft B is a flat XML document where the relationships between elements are expressed solely through their position, in an implicit way. The division of information on separate countries is not inherent to this design.
+\end{itemize}
+The following XPath expressions find information on one specific country:}
+\lstset{language=XML}
+\begin{lstlisting}
+Draft A: /countries/country[@code='AO']/*
+
+Draft B: /facts/fact[@key='country' and @value='AO']/following-sibling::fact[not(
+@key='country' or preceding-sibling::fact[@key='country'][1]/@value != 'AO')]
+\end{lstlisting}
+
+\noindent \textbf{Obviously, the XPath expression for draft A is much simpler and easier to read, because information belonging to a specific country is more salient and more readily available. In XSLT, one would use a grouping mechanism to avoid this kind of cumbersome XPath expression. \\ \\ The next set of XPath expressions retrieves information on the population of one specific country:}
+\lstset{language=XML}
+\begin{lstlisting}
+Draft A: /countries/country[@code='MX']/population/text()
+
+Draft B: /facts/fact[@key='country' and @value='MX']/
+         following-sibling::fact[@key='population'][1]/@value
+\end{lstlisting}
+
+\noindent \textbf{Finally, to determine a country, given a GDP value as an identifier, the following path expressions work:}
+\lstset{language=XML}
+\begin{lstlisting}
+Draft A: /countries/country[gdp='491 Billion']/@code
+
+Draft B: facts/fact[@key='gdp' and @value='491 Billion']/
+         preceding-sibling::fact[@key='country'][1]/@value
+\end{lstlisting}
+
+\noindent \textbf{All the comparisons above clearly show that draft A presents data in a more accessible way, with respect to the purpose the XML document should serve.}
+
+
+
+
+%\subsection{Keeping Apart Continents}
+%
+%Consider once again your choice from Exercise 1 and take this XML document as the starting point. Then, refine its design to also reflect the most recent requirement, namely that it should be explicitly evident which countries belong to which continent. By extension, it should be easy to retrieve all countries on one specific continent. Save your refined design as \texttt{ex01.xml}. \\
+%
+%\noindent \textbf{The refined XML document builds upon draft A and is available as \texttt{ex01.xml} in the zip folder.}
+
+\section{RDF}
+
+\noindent Write a serialised version of the graph above that represents all information in XML RDF syntax. Declare two namespaces, one for RDF elements:
+\lstset{language=XML}
+\begin{lstlisting}
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+\end{lstlisting}
+Another one for the domain-specific facts:
+\lstset{language=XML}
+\begin{lstlisting}
+xmlns:g="http://geo/#"
+\end{lstlisting}
+Use the official RDF XML validator\footnote{Online at \url{http://www.w3.org/RDF/Validator/}.} to validate your solution before submitting it. Also, the validation service is useful to learn how RDF translates to either model triples or graphs. Save your RDF as \texttt{rdf.xml}. \\
+
+\noindent \textbf{The RDF/XML \texttt{rdf.xml} attached generates exactly the graph shown in the task description.}
+
+\end{document}

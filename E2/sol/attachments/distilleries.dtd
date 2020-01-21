@@ -1,0 +1,25 @@
+<!ELEMENT distilleries (distillery)+>
+
+<!ELEMENT distillery (address, stills, bottlings)>
+<!ATTLIST distillery name CDATA #REQUIRED>
+
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT stills (still)+>
+<!--A distillery has at least one still, otherwise there wouldn't be much distilling.-->
+<!ELEMENT bottlings (bottling)*>
+<!--The different products from a distillery are called bottlings.-->
+
+<!ELEMENT still EMPTY>
+<!--A still is a structure in distillation takes place-->
+
+<!ATTLIST still type (column | pot) #REQUIRED>
+<!--A still can be of one of two types: column or pot-->
+<!ATTLIST still name CDATA #IMPLIED>
+<!--A still can have a name-->
+
+<!ELEMENT bottling EMPTY>
+<!ATTLIST bottling name CDATA #REQUIRED>
+<!ATTLIST bottling age CDATA #IMPLIED>
+<!--The minimum age for Single Malt from Scotland must be 3 years -->
+<!ATTLIST bottling category CDATA #FIXED "Single Malt">
+<!--We could also consider other things, but why would we...?-->

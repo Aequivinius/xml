@@ -1,0 +1,109 @@
+\documentclass[a4paper, 12pt]{scrartcl}
+\usepackage{listings}
+\usepackage{color}
+\lstdefinelanguage{XML}
+{
+  basicstyle=\ttfamily\footnotesize,
+  morestring=[b]",
+  moredelim=[s][\bfseries\color{blue}]{<}{\ },
+  moredelim=[s][\bfseries\color{blue}]{</}{>},
+  moredelim=[l][\bfseries\color{blue}]{/>},
+  moredelim=[l][\bfseries\color{blue}]{>},
+  morecomment=[s]{<?}{?>},
+  morecomment=[s]{<!--}{-->},
+  commentstyle=\color{black},
+  stringstyle=\color{blue},
+  identifierstyle=\color{red}
+}
+
+\setkomafont{sectioning}{\rmfamily}
+
+\title{XML Technologies: Exercise 2}
+\date{}
+\subtitle{DTDs, Namespaces, Encodings}
+
+\begin{document}
+\maketitle\vspace{-12ex}
+
+\noindent This is a mandatory exercise and the result will be part of your final mark. The solution must be uploaded to OLAT by \textbf{March 11\textsuperscript{th} at 15:59}. Late submissions will not be accepted.\\
+
+
+
+\noindent Submit the following files in a zipped archive:
+\begin{itemize}
+\item distilleries.xml
+\item distilleries.dtd
+\item 2a.xml, 2b.xml, 2c.xml, 2d.xml, 2e.xml
+\item japanese\_distilleries.xml
+\end{itemize}
+
+\noindent Name the archive [lastname]\_[firstname]\_2.zip (for example \textit{mueller\_mathias\_2.zip}). Some parts of your submission may be automatically evaluated, so make sure to name your files \textit{precisely} as prescribed, otherwise you might not get any points.
+
+\section{Document Type Definitions (DTDs) revisited}
+
+\subsection{Whisky Distilleries (2 Points)}
+
+The DTD \texttt{distilleries.dtd} attached defines the structure of an XML file representing a collection of whisky distilleries. Read the definition carefully before moving on. Also notice how the definitions are arranged: Usually, DTDs start with the definition of the root element and are then written starting with the outermost elements. The arrangement of attributes is considered a matter of taste.\\
+
+\noindent \textbf{Write an XML file that is a \textit{valid} instance of the DTD above. The content you may make up, but the structure has to conform to the DTD! You can check validity with \texttt{xmllint --noout --valid distilleries.xml}. Make sure you use the appropriate declaration in the header of the XML file:}
+
+\lstset{language=XML}
+\begin{lstlisting}
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE distilleries SYSTEM "distilleries.dtd">
+\end{lstlisting}
+
+\noindent \textbf{Also, to facilitate correction, include the original \texttt{distilleries.dtd} in your submission.}
+
+\subsection{Better Distilleries (0 Points)}
+
+The DTD above illustrates how limited DTDs are. Often, we would like to enforce more complex constraints, as in the DTD comment:
+
+\lstset{language=XML}
+\begin{lstlisting}
+<!--The minimum age for Single Malt from Scotland must be 3 years -->
+\end{lstlisting}
+
+\noindent Whereas DTDs are incapable of capturing constraints like these, XML Schemas are. They will be introduced later in the course. So, in due time we will be able to rewrite a proper XML whisky database. \\
+
+\noindent \textbf{Do not submit anything for this purely informational subsection.} 
+
+\section{Namespaces (2 Points)}
+
+Namespaces are a powerful aspect of XML. Any element or attribute that is \textit{prefixed} as follows
+
+\lstset{language=XML}
+\begin{lstlisting}
+<p:element p:a="done" xmlns:p="www.p.com"/>
+\end{lstlisting}
+
+\noindent is said to be in a namespace. If a default namespace is set in one of the enclosing elements, elements without a prefix are also in that namespace. And then, of course, there is the \textit{null} namespace.\\
+
+\noindent Attached you find 5 documents called \texttt{2a.xml}, \texttt{2b.xml}, \texttt{2c.xml}, \texttt{2d.xml} and \texttt{2e.xml}. They all use namespaces, but not all of them use them correctly. \\
+
+\noindent \textbf{For every file, insert an XML comment at the beginning of each file, either explaining that namespaces were used correctly:}
+
+\begin{lstlisting}
+<!--Correct use of namespaces.-->
+\end{lstlisting}
+
+\noindent \textbf{Or explaining why namespaces were misused:}
+
+\begin{lstlisting}
+<!--Incorrect use of namespaces because...-->
+\end{lstlisting}
+
+\noindent \textbf{If there are mistakes, correct them so all the files are well-formed.}
+
+\section{Encoding Japanese Whiskies (1 Points)}
+
+There are two aspects to character encoding (both in XML and programming in general). On one hand, there are different \textit{character sets} or \textit{repertoires}, which are finite sets of abstract characters.\\ 
+
+\noindent On the other hand, there must be a mapping, called \textit{encoding}, between the abstract characters and their physical representation on disk. The most widely used example of this is \textit{Unicode}, which defines both a repertoire and an encoding.\\
+
+\noindent XML is designed to be equally comfortable with any character set, and any kind of encoding. \\
+
+\noindent \textbf{Save a copy of your \texttt{distilleries.xml} as \texttt{japanese\_distilleries.xml}. Add as an additional element the famed Yamazaki distillery, the information you which you'll find in the attached \texttt{yamazaki.txt}.  Choose an appropriate encoding and save the file.} (While XML deals very well with Unicode, Latex does not!).
+
+
+\end{document}

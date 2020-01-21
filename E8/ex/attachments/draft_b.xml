@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<facts>
+   <fact key="country" value="AO"/>
+   <fact key="continent" value="AF"/>
+   <fact key="population" value="12799293"/>
+   <fact key="area" value="1246700"/>
+   <fact key="gdp" value="110.3 Billion" currency="USD"/>
+   <fact key="country" value="BE"/>
+   <fact key="continent" value="EU"/>
+   <fact key="population" value="10414336"/>
+   <fact key="area" value="30528"/>
+   <fact key="gdp" value="389.3 Billion" currency="USD"/>
+   <fact key="country" value="ID"/>
+   <fact key="continent" value="AS"/>
+   <fact key="population" value="240271522"/>
+   <fact key="area" value="1904569"/>
+   <fact key="gdp" value="914.6 Billion" currency="USD"/>
+   <fact key="country" value="MX"/>
+   <fact key="continent" value="NA"/>
+   <fact key="population" value="111211789"/>
+   <fact key="area" value="1964375"/>
+   <fact key="gdp" value="1.563 Trillion" currency="USD"/>
+   <fact key="country" value="ZA"/>
+   <fact key="continent" value="AF"/>
+   <fact key="population" value="49052489"/>
+   <fact key="area" value="1219090"/>
+   <fact key="gdp" value="491 Billion" currency="USD"/>
+</facts>

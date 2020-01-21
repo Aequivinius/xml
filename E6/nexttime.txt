@@ -1,0 +1,1 @@
+As students to use a specific XQuery processor, and to include medsamp and interesting files in their submission for easy testing.

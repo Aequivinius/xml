@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<single_malt>
+   <whisky name="macallan" origin="Scotland" age="12"/>
+   <whiskey name="jameson" origin="Ireland" age="4"/>
+   <whisky name="lagavulin" origin="Scotland" age="16"/>
+</single_malt>

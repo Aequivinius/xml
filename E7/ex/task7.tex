@@ -1,0 +1,69 @@
+\documentclass[a4paper, 12pt]{scrartcl}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\lstdefinelanguage{XML}
+{
+  basicstyle=\ttfamily\footnotesize,
+  morestring=[b]",
+  moredelim=[s][\bfseries\color{blue}]{<}{\ },
+  moredelim=[s][\bfseries\color{blue}]{</}{>},
+  moredelim=[l][\bfseries\color{blue}]{/>},
+  moredelim=[l][\bfseries\color{blue}]{>},
+  morecomment=[s]{<?}{?>},
+  morecomment=[s]{<!--}{-->},
+  commentstyle=\color{black},
+  stringstyle=\color{blue},
+  identifierstyle=\color{red}
+}
+
+\setkomafont{sectioning}{\rmfamily}
+
+\title{XML Technologies: Exercise 7}
+\date{}
+\subtitle{XQuery Revised}
+
+\begin{document}
+\maketitle\vspace{-12ex}
+
+\noindent This is a mandatory exercise and the result will be part of your final mark. The solution must be uploaded to OLAT by \textbf{May 13\textsuperscript{th} at 15:59}. Late submissions will not be accepted.\\
+
+
+\noindent Submit the following files in a zipped archive:
+\begin{itemize}
+\item 1.xq
+\item 1.xml
+\end{itemize}
+
+\noindent Make sure the archive is named [lastname]\_[firstname]\_7.zip (for example \textit{mueller\_mathias\_7.zip}). Some parts of your submission may be automatically evaluated, so make sure to name your files \textit{precisely} as prescribed, otherwise you might not get any points.
+
+\section{XQuery Revised (5 Points)}
+
+XQuery has already been covered in Exercise 6. This question therefore assumes knowledge of FLWOR expressions, variable assignments and nested queries. Also, the query input XML will be the MEDLINE citations collection once again, which you'll find in the attached as \texttt{medsamp2016.xml}. \\
+
+\noindent Designing an XML database like the MEDLINE citations involves a number of crucial decisions. One of them is deciding on a \textit{point of view}. If you think of an XML document as a story that is being told, the point of view is embodied in a main character -- through whose eyes the story unfolds. In the MEDLINE XML, the main character is the \texttt{MedlineCitation}. \\
+
+\noindent This might be convenient in some situations, but in others it is not: for example, if you'd like to concentrate on authors rather than on citations, the organisation of this XML document is more of an obstacle. And that's why you will write an XQuery that tells the MEDLINE story from the point of view of authors. \\
+
+\noindent \textbf{Write an XQuery that finds all distinct last names in the MEDLINE document. Then, for each author name, list all the citations that belong to this author. Order the authors by name and the citations by year of journal publication, both in ascending order. Your XML output should look like:} \\
+
+\lstset{language=XML}
+\begin{lstlisting}
+<!--PLEASE NOTE: This is a formatted result, for ease of reading.
+    Formatting and indentation are not mandatory.-->
+<authors>
+    <author name="Abbott">
+        <citation title="Measurement.........................." year="2002"/>
+    </author>
+    <author name="Abboud">
+        <citation title="Effects.............................." year="1999"/>
+    </author>
+    <!--Many more author elements-->
+</authors>
+\end{lstlisting}
+
+\noindent \textbf{Save your query as \texttt{1.xq} and the result as \texttt{1.xml}.}
+
+
+\end{document}

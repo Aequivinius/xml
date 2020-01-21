@@ -1,0 +1,5 @@
+<!--Incorrect use of namespaces. There are prefixes in the element names, but they are not associated with a namespace URI.-->
+<nsa:root xmlns:nsa="www.example.com/nsa">
+  <nsa:a/>
+  <nsa:b/>
+</nsa:root>

@@ -1,0 +1,5 @@
+<!--Correct use of namespaces. The namespace is declared correctly, but not used.-->
+<root xmlns:nsa="www.nsa-namespace.com">
+  <a/>
+  <b/>
+</root>

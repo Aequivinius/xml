@@ -1,0 +1,1 @@
+for f in studs/*; do xsltproc $f/tablify.xsl sol/more_whiskies.xml > $f/table.html; done

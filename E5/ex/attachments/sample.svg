@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>SVG Example</title>
+  <rect fill="#fff" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+  <g display="none" overflow="visible" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <ellipse ry="45" rx="48.5" id="svg_4" cy="118.516666" cx="241.5" stroke-width="1.5" stroke="#000" fill="#7DD8B5"/>
+  <ellipse ry="45" rx="48.5" id="svg_1" cy="117.516666" cx="207.5" stroke-width="1.5" stroke="#000" fill="#FFFF91"/>
+  <ellipse ry="45" rx="48.5" id="svg_2" cy="140.516666" cx="181.5" stroke-width="1.5" stroke="#000" fill="#C48157"/>
+  <ellipse ry="47.5" rx="68" id="svg_3" cy="340.016666" cx="701" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  <ellipse ry="45" rx="48.5" id="svg_5" cy="176.516666" cx="193.5" stroke-width="1.5" stroke="#000" fill="#535F75"/>
+  <ellipse ry="45" rx="48.5" id="svg_6" cy="195.516666" cx="218.5" stroke-width="1.5" stroke="#000" fill="#A4FFFF"/>
+  <ellipse ry="45" rx="48.5" id="svg_7" cy="194.516666" cx="247.5" stroke-width="1.5" stroke="#000" fill="#8B4D4B"/>
+  <ellipse ry="49.500001" rx="53.5" id="svg_9" cy="220.016668" cx="271.499999" stroke-width="1.5" stroke="#000" fill="#46673D"/>
+  <ellipse ry="62.999999" rx="64.999998" id="svg_8" cy="257.516663" cx="285.999994" stroke-width="1.5" stroke="#000" fill="#9ACEE6"/>
+  <text transform="matrix(1.87342, 0, 0, 2.08, -224.468, -267.318)" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_12" y="261.708974" x="248.391892" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#000000">SVG</text>
+ </g>
+</svg>

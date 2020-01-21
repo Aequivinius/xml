@@ -1,0 +1,4 @@
+To correct, use the xwing directory in the sol-folder. Run:
+$ xmllint --schema studentsschema.xsd * --noout
+
+Only xwing.xsd should validate.

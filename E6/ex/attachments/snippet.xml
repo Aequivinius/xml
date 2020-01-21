@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<MedlineCitationSet>
+  <MedlineCitation Owner="NLM" Status="MEDLINE">
+    <PMID Version="1">10535697</PMID>
+    <Article PubModel="Print">
+      <Journal>
+        <JournalIssue CitedMedium="Print">
+          <PubDate>
+            <Year>1999</Year>
+          </PubDate>
+        </JournalIssue>
+        <Title>Canadian journal of physiology and pharmacology</Title>
+      </Journal>
+      <ArticleTitle>Pharmacological uses and perspectives of heavy water and deuterated compounds.</ArticleTitle>
+      <Abstract>
+        <AbstractText>Both "solvent isotope effects," those due to the special properties of D20 as a solvent, and "deuterium isotope effects" (DIE), which result when D replaces H in many biological molecules, are considered.</AbstractText>
+      </Abstract>
+      <AuthorList CompleteYN="Y">
+        <Author ValidYN="Y">
+          <LastName>Kushner</LastName>
+          <AffiliationInfo>
+            <Affiliation>Department of Botany, University of Toronto, ON, Canada. kushner@botany.utoronto.ca</Affiliation>
+          </AffiliationInfo>
+        </Author>
+      </AuthorList>
+    </Article>
+    <!-- more articles -->
+  </MedlineCitation>
+</MedlineCitationSet>

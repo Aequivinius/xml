@@ -1,0 +1,6 @@
+<!--Incorrect use of namespaces. The document is not well-formed because the root element is not properly closed.-->
+<nsa:root xmlns:nsa="www.nsa-namespace.com" xmlns:nsb="www.nsa-namespace.com">
+  <nsb:a/>
+  <nsb:b/>
+<!-- </nsb:root> -->
+</nsa:root>

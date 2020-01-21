@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"> 
+   <company>
+      <person role="master distiller">
+         <salary >10000</salary> 
+         <weight unit="kg">90</weight>
+      </person>
+      <person role="CTO & Business Analyst" role="CTO">
+         <salary >9500 </ salary >
+         <weight unit=kg">100</weigth > 
+<company/>

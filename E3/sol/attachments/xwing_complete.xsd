@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	
+	<xs:element name="xwing" type="xwingType"/>
+	
+	<xs:attributeGroup name="manufacturer-model">
+		<xs:attribute name="manufacturer" type="xs:string" use="required" />
+		<xs:attribute name="model" type="xs:string" use="required" />
+	</xs:attributeGroup>
+	
+	<xs:complexType name="xwingType">
+		<xs:all>
+			<xs:element name="propulsion" type="propulsionType" />
+			<xs:element name="wings" type="wingsType" />
+			<xs:element name="fuselage" type="fuselageType" />
+		</xs:all>
+		<xs:attributeGroup ref="manufacturer-model" />
+	</xs:complexType>
+	
+	<xs:complexType name="propulsionType">
+		<xs:sequence>
+			<xs:element name="engine" type="engineType" minOccurs="4" maxOccurs="4" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="engineType">
+		<xs:attributeGroup ref="manufacturer-model" />
+	</xs:complexType>
+	
+	<xs:complexType name="wingsType">
+		<xs:sequence minOccurs="2" maxOccurs="2">
+			<xs:element name="s-foil" type="s-foilType" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="s-foilType">
+		<xs:sequence>
+			<xs:element name="cannon" type="cannonType" minOccurs="0" maxOccurs="2"/>
+		</xs:sequence>
+		<xs:attribute name="folded" type="xs:boolean" />
+	</xs:complexType>
+	
+	<xs:complexType name="cannonType">
+		<xs:attributeGroup ref="manufacturer-model" />
+	</xs:complexType>
+	
+	<xs:complexType name="fuselageType">
+		<xs:sequence>
+			<xs:element name="cockpit" type="xs:string" />
+			<xs:element name="socket" type="xs:string" />
+			<xs:element name="power-generator" type="power-generatorType" />
+			<xs:element name="torpedo-launcher" type="torpedo-launcherType" minOccurs="0" maxOccurs="2"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="power-generatorType">
+		<xs:attributeGroup ref="manufacturer-model" />
+	</xs:complexType>
+	
+	<xs:complexType name="torpedo-launcherType">
+		<xs:attributeGroup ref="manufacturer-model" />
+		<xs:attribute ref="magazine" />
+	</xs:complexType>
+	
+	<xs:attribute name="magazine">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<xs:pattern value="[0-3]" />
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:attribute>
+		
+</xs:schema> 

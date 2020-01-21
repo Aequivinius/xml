@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	
+	<xs:element name="xwing" type="xwingType"/>
+	
+	<xs:attributeGroup>
+		<!-- fill the void -->
+	</xs:attributeGroup>
+	
+	<xs:complexType name="xwingType">
+		<xs:all>
+			<xs:element name="propulsion" type="propulsionType" />
+			<xs:element name="wings" type="wingsType" />
+			<xs:element name="fuselage" type="fuselageType" />
+		</xs:all>
+		<xs:attributeGroup ref="manufacturer-model" />
+	</xs:complexType>
+	
+	<xs:complexType name="propulsionType">
+		<!-- fill the void -->
+	</xs:complexType>
+	
+	<!-- fill the void -->
+	
+	<xs:attribute name="magazine">
+		<xs:simpleType>
+			<xs:restriction base="xs:integer">
+				<!-- fill the void -->
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:attribute>
+		
+</xs:schema> 
